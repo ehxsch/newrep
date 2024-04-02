@@ -33,3 +33,12 @@ touch %имя файла%.txt
 6. Выполняем команду **git push**
 
 7. Заходим через браузер и смотрим что получилось в [GitHUB](https://github.com) 
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
